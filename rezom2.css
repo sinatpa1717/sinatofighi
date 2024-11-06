@@ -1,0 +1,72 @@
+@font-face {
+    font-family: vazir1;
+    src: url(vazir-font-v16.1.0/Vazir-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: vazir1;
+    width: 500%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-left: 8.2%;
+    margin-top: 50px;
+    animation: slide-up-logo 0.5s forwards;
+
+}
+.rezomee img {
+    margin-left: 5%;
+    margin-top: 1.5%;
+    opacity: 0;
+    animation: slide-up 1s forwards;
+}
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(120%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.logoo {
+    position: fixed;
+    bottom: 3%;
+    right: 50%;
+    width: 650px; /* اندازه کوچکتر لوگو */
+    animation: slide-up-logo 1s forwards;
+}
+@keyframes slide-up-logo {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    margin-left: 6.8%;
+    margin-top: 50px;
+    animation: slide-up-logo 1s forwards;
+
+}
+
+h3 {
+    animation: slide-up-logo 1s forwards;
+    margin-left: 20px;
+    text-decoration: underline black;
+
+}
